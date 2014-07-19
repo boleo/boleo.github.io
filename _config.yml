@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            BoLau
-tagline:          '作记录的地方'
-description:      '<a href="http://weibo.com/liuihc" target="_blank">BoLau</a><br/>用来记录胡思乱想的地方 '
+title:            路边阳春面
+tagline:          '每天不同的味道'
+description:      '<a href="http://weibo.com/liuihc" target="_blank">路边阳春面</a><br/>每天不同的味道'
 url:              http://weibo.com/liuihc
 baseurl:          '/'
 paginate:         5
