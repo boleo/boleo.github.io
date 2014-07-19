@@ -11,7 +11,7 @@ tagline:          '每天不同的味道'
 description:      '<a href="http://weibo.com/liuihc" target="_blank">路边阳春面</a><br/>每天不同的味道'
 url:              http://weibo.com/liuihc
 baseurl:          '/'
-paginate:         5
+paginate:         1
 
 author:
   name:           'BoLau'
