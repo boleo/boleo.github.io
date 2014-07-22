@@ -13,13 +13,14 @@ layout: default
   </div>
   <script type="text/ecmascript" src="../public/js/sha1.js"></script>
   <script type="text/javascript">
-  function escape (str){
+  function escape(str){
 	str = str.replace(/\r?\n/g,"<br />");
 	str = str.replace(/[<>&"]/g,function(c){return {'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c];});
+	return str;
 }
   function check (){
     var pw = document.getElementById("pw").value;
-	alert("{{ content }}");
+	alert(escape("{{ content }}"));
     if (hex_sha1(pw) == "be9b98a127f2cd5d0994e437d340f2bd2a6cc3cf"){
 	      document.getElementById('tips').style.display = "none";
 	      //document.getElementById("content").innerHTML = ;
