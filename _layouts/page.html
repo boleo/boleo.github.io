@@ -9,7 +9,8 @@ layout: default
     <input id="pw" type="password" />
     <button type="button" onclick="a()">确定</button>
   </div>
-  <div id="content">
+  <div id="content" style="display:none;">
+     {{ content }}
   </div>
   <script type="text/ecmascript" src="../public/sha1.js"></script>
   <script type="text/javascript">
@@ -17,7 +18,8 @@ layout: default
     var pw = document.getElementById("pw").value;
     if (hex_sha1(pw) == "be9b98a127f2cd5d0994e437d340f2bd2a6cc3cf"){
 	      document.getElementById('tips').style.display = "none";
-	      document.getElementById("content").innerHTML = {{ content }};
+	      //document.getElementById("content").innerHTML = ;
+	      document.getElementById("content").style.display = "";
      }else{
      	alert("12313123")
      }
