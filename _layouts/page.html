@@ -3,6 +3,22 @@ layout: default
 ---
 
 <div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
+  <div id="tips">
+    <label>请输入你的出生年月日</label>
+    <input id="pw" type="password" />
+    <button type="button" onclick="a()">确定</button>
+    <h1 class="page-title">{{ page.title }}</h1>
+  </div>
+  <div id="content">
+  </div>
+  <script type="text/ecmascript" src="sha1.js"></script>
+  <script type="text/javascript">
+  function a (){
+    var pw = document.getElementById("pw").value;
+    if (hex_sha1(pw) == "be9b98a127f2cd5d0994e437d340f2bd2a6cc3cf"){
+	      document.getElementById('tips').style.display = "none";
+	      document.getElementById("content").innerHTML = {{ content }};
+     }
+}
+</script>  
 </div>
