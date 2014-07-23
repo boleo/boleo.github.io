@@ -5,6 +5,8 @@ pygments:         true
 # Permalinks
 permalink:        pretty
 
+timezone:  		  Asia/Shanghai
+
 # Setup
 title:            路边阳春面
 tagline:          '每天不同的味道'
