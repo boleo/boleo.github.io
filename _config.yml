@@ -6,6 +6,8 @@ pygments:         true
 #permalink:        pretty
 permalink:        date
 
+include:     	  ['.htaccess']
+
 timezone:  		  Asia/Shanghai
 lsi:			  true
 
