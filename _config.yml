@@ -3,7 +3,8 @@ markdown:         redcarpet
 pygments:         true
 
 # Permalinks
-permalink:        pretty
+#permalink:        pretty
+permalink:        date
 
 timezone:  		  Asia/Shanghai
 lsi:			  true
