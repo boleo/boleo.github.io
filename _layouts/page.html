@@ -10,6 +10,7 @@ layout: default
     <button type="button" onclick="check()">确定</button>
   </div>
   <div id="content" style="display:none;">
+  	{{ content }}
   </div>
   <script type="text/ecmascript" src="../public/js/sha1.js"></script>
   <script type="text/javascript">
@@ -20,7 +21,6 @@ layout: default
 }
   function check (){
     var pw = document.getElementById("pw").value;
-	alert(escape({{ content }}));
     if (hex_sha1(pw) == "be9b98a127f2cd5d0994e437d340f2bd2a6cc3cf"){
 	      document.getElementById('tips').style.display = "none";
 	      //document.getElementById("content").innerHTML = ;
