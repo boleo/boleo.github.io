@@ -6,6 +6,7 @@ pygments:         true
 permalink:        pretty
 
 timezone:  		  Asia/Shanghai
+lsi:			  true
 
 # Setup
 title:            路边阳春面
