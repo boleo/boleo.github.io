@@ -4,6 +4,21 @@ title: Home
 ---
 
 <div class="posts">
+   <div>
+  <script>
+  (function() {
+    var cx = '001444020496022923561:-szpe3hc1p8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+   </div>
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
