@@ -12,9 +12,9 @@ timezone:  		  Asia/Shanghai
 lsi:			  true
 
 # Setup
-title:            路边阳春面
-tagline:          '每天不同的味道'
-description:      '<a href="http://weibo.com/liuihc" target="_blank">路边阳春面</a><br/>每天不同的味道'
+title:            Know Nothing
+tagline:          'You know nothing'
+description:      '<a href="http://weibo.com/liuihc" target="_blank">You know nothing</a>
 url:              http://weibo.com/liuihc
 baseurl:          '/'
 paginate:         1
