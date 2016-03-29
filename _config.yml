@@ -14,7 +14,7 @@ lsi:			  true
 # Setup
 title:            Know Nothing
 tagline:          'You know nothing'
-description:      '<a href="http://weibo.com/liuihc" target="_blank">You know nothing</a>
+description:      '<a href="http://weibo.com/liuihc" target="_blank">You know nothing</a>'
 url:              http://weibo.com/liuihc
 baseurl:          '/'
 paginate:         1
